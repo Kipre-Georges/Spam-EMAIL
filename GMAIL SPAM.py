@@ -1,5 +1,6 @@
 # coding: utf-8
 # -*-coding:Latin-1 -*
+import webbrowser
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import smtplib
@@ -104,6 +105,7 @@ else:
     print("-----------------------------------------------------------")
     print("-----------------------------------------------------------")
     print   ("            PRGM FAIT PAR GEORGES KIPS#KGE           ")
+    webbrowser.open("https://www.youtube.com/channel/UCE1JBg4bH1HTRUtWAvKBn0Q/about")
 
 
 
