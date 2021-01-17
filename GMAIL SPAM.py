@@ -9,28 +9,15 @@ from getpass import getpass
 import socket 
 #NEW FEATURE VERIFIER SI IL EST CONNECTE A INTERNET#
 autorisation=0
-print("                                 ")
-print("                                 ")
-print("                                 ")
-print("                                 ")
-print("                                 ")
+for i in range(1,6):
+    print("                                 ")
 print("Avez vous autorisez Votre gmail a être utiliser par des applications tierces")
 print("SI oui TAPER 1")
-print("                                 ")
-print("                                 ")
-print("                                 ")
-print("                                 ")
-print("                                 ")
-print("                                 ")
+for i in range(1,6):
+    print("                                 ")
 print("SI non TAPER 2")
-print("                                 ")
-print("                                 ")
-print("                                 ")
-print("                                 ")
-print("                                 ")
-print("                                 ")
-print("                                 ")
-print("                                 ")
+for i in range(1,6):
+    print("                                 ")
 autorisation=int(input("Choisissez entrez 1 ou 2 :"))
 
 if autorisation==1 :
@@ -41,28 +28,23 @@ if autorisation==1 :
 
 
     email = str(input("saisir votre adresse mail :"))
-    print("                                 ")
-    print("                                 ")
-    print("                                 ")
+    for i in range (1,3):
+        print("                                 ")
     adresse_mail_de_la_victime = str(input("saisir l'adresse mail de la victime : "))
-    print("                                 ")
-    print("                                 ")
-    print("                                 ")
+    for i in range (1,3):
+        print("                                 ")
     mdp = getpass("saisir votre  mot de passe : ")
-    print("                                 ")
-    print("                                 ")
+    for i in range (1,2):
+        print("                                 ")
     objet = str(input("saisir l'objet du mail : "))
-    print("                                 ")
-    print("                                 ")
-    print("                                 ")
+    for i in range (1,2):
+        print("                                 ")
     corps = str(input("saisir le corps du mail : "))
-    print("                                 ")
-    print("                                 ")
-    print("                                 ")
+    for i in range (1,2):
+        print("                                 ")
     nombre_de_message_a_envoyé = int(input("saisir le nombre de message a envoyé : "))
-    print("                                 ")
-    print("                                 ")
-    print("                                 ")
+    for i in range (1,2):
+        print("                                 ")
     Estimation_du_temps = (nombre_de_message_a_envoyé*1)/26
 
     if Estimation_du_temps>1:
@@ -89,21 +71,12 @@ if autorisation==1 :
         server.quit
         nombre_de_mail_envoyé = nombre_de_mail_envoyé+1     
         print("Message n°",nombre_de_mail_envoyé,"envoyé avec succès")
+    webbrowser.open("https://www.youtube.com/channel/UCE1JBg4bH1HTRUtWAvKBn0Q/about")
 
 else:
     print("Vous ne pouvez pas utilisez SPAMM ACCOUNT")
-    print("-----------------------------------------------------------")
-    print("-----------------------------------------------------------")
-    print("-----------------------------------------------------------")
-    print("-----------------------------------------------------------")
-    print("-----------------------------------------------------------")
-    print("-----------------------------------------------------------")
-    print("-----------------------------------------------------------")
-    print("-----------------------------------------------------------")
-    print("-----------------------------------------------------------")
-    print("-----------------------------------------------------------")
-    print("-----------------------------------------------------------")
-    print("-----------------------------------------------------------")
+    for i in range (1,10):
+        print("-----------------------------------------------------------")
     print   ("            PRGM FAIT PAR GEORGES KIPS#KGE           ")
     webbrowser.open("https://www.youtube.com/channel/UCE1JBg4bH1HTRUtWAvKBn0Q/about")
 
