@@ -7,7 +7,7 @@ import smtplib
 import getpass
 from getpass import getpass
 import socket 
-#NEW FEATURE VERIFIER SI IL EST CONNECTE A INTERNET#
+
 autorisation=0
 for i in range(1,6):
     print("                                 ")
