@@ -77,8 +77,8 @@ else:
     print("Vous ne pouvez pas utilisez SPAMM ACCOUNT")
     for i in range (1,10):
         print("-----------------------------------------------------------")
-    print   ("            PRGM FAIT PAR GEORGES KIPS#KGE           ")
-    webbrowser.open("https://www.youtube.com/channel/UCE1JBg4bH1HTRUtWAvKBn0Q/about")
+    
+    webbrowser.open("")
 
 
 
