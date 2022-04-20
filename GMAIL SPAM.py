@@ -71,14 +71,14 @@ if autorisation==1 :
         server.quit
         nombre_de_mail_envoyé = nombre_de_mail_envoyé+1     
         print("Message n°",nombre_de_mail_envoyé,"envoyé avec succès")
-    webbrowser.open("https://www.youtube.com/channel/UCE1JBg4bH1HTRUtWAvKBn0Q/about")
+    #webbrowser.open("")
 
 else:
     print("Vous ne pouvez pas utilisez SPAMM ACCOUNT")
     for i in range (1,10):
         print("-----------------------------------------------------------")
     
-    webbrowser.open("")
+    #webbrowser.open("")
 
 
 
