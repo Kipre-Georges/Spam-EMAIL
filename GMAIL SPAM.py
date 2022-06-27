@@ -1,3 +1,4 @@
+#update ne fonctionne plus car google n'autorise plus les third party application à se connecter à un compte google
 # coding: utf-8
 # -*-coding:Latin-1 -*
 import webbrowser
